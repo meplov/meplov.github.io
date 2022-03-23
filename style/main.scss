@@ -465,7 +465,6 @@ hr {
   @include button;
   display: block;
   text-align: center;
-  float: right;
 }
 
 .game-explanation {
@@ -519,11 +518,11 @@ hr {
   }
 
   .restart-button {
-    width: 42%;
-    padding: 0;
+    min-width: 40px;
+    padding: 15px 10px;
     display: block;
     box-sizing: border-box;
-    margin-top: 2px;
+    margin-top: 0;
   }
 
   // Render the game field at the right width
