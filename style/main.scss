@@ -518,11 +518,10 @@ hr {
   }
 
   .restart-button {
-    min-width: 40px;
-    padding: 15px 10px;
-    display: block;
-    box-sizing: border-box;
-    margin-top: 0;
+  @include button;
+  display: block;
+  text-align: center;
+  float: right;
   }
 
   // Render the game field at the right width
