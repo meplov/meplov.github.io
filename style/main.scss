@@ -22,7 +22,7 @@ $game-container-background: #bbada0;
 $transition-speed: 100ms;
 
 html, body {
-  margin: auto;
+  margin: 0;
   padding: 0;
 
   background: #faf8ef;
@@ -141,9 +141,10 @@ hr {
 }
 
 .container {
-  width: $field-width;
-  margin: 0 auto;
-  
+margin: auto;
+width: 60%;
+border: 5px solid #FFFF00;
+padding: 10px;
 }
 
 @include keyframes(fade-in) {
